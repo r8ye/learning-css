@@ -1,0 +1,62 @@
+
+.box {
+    background-color:antiquewhite;
+    width: 100px;
+    height: 100px;
+}
+
+figure img {
+    width: 300px;
+    height: 200px;
+    border: 4px solid black;
+}
+
+figcaption {
+    border: 2px solid black
+}
+
+/* Display: inline-block; */
+
+.inline-block-element {
+    display: inline-block;;
+    width: 150px;
+    height: 200px;
+}
+
+.element1 {
+    background-color: navy;
+}
+
+.element2 {
+    background-color: purple;
+}
+
+/* display: block; */
+.block-element {
+    display: block;
+    width: 150px;
+    height: 200px;
+}
+
+.block1 {
+    background-color: green;
+}
+
+.block2 {
+    background-color: cyan;
+}
+
+/* margins */
+.m-and-p {
+    border: 2px solid red;
+    margin: 50px 100px 50px;
+    padding: 20px 20px 20px;
+}
+
+/* .m-and-p {
+    border: 2px solid red;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+} */
