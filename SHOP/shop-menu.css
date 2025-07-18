@@ -1,0 +1,10 @@
+body {
+    background-color: white;
+    font-family: Poppins;
+}
+
+.menu-container {
+    width: 80%;
+    max-width: 800px;
+    background: linear-gradient(to bottom, rgb(188, 241, 221), rgb(238, 174, 195));
+}
