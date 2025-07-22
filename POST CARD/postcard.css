@@ -1,12 +1,11 @@
 body {
   background-color: whitesmoke;
-  margin: 180px;
+  padding: 180px;
   font-family: Roboto;
 }
 
 .blog-post-card {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   background-color: white;
   border-radius: 10px;
   width: 350px;
