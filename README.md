@@ -3,5 +3,6 @@
 # camper cafe menu page
 # shop infinitea
 # to-do list page
-# blog post card
+# blog posts
 # 2 pages
+# happy festival
