@@ -1,0 +1,152 @@
+body {
+    font-family: 'Roboto';
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 100px;
+
+}
+
+.login-container {
+    display: flex;
+    border: 1px solid black;
+    width: 80%;
+    height: 500px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.left-col {
+    width: 50%;
+}
+
+.left-col img {
+    width: 90%;
+    height: auto;
+}
+
+.right-col {
+    width: 50%;
+}
+
+h1.login-here {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container label {
+    font-size: 1rem;
+    padding: 0.3em;
+    color: black;
+}
+
+.input-container input {
+    margin-bottom: 1em;
+    padding: 0.8em;
+    font-size: 0.8rem;
+    border: 2px solid rgb(135, 167, 208);
+    border-radius: 5px;
+    width: 80%;
+}
+
+button {
+    padding: 0.8em;
+    border: 2px solid rgb(40, 106, 194);
+    background-color: rgb(40, 106, 194);
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.8em;
+    border-radius: 5px;
+    width: 86%;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.input-container input:hover {
+    border-color: rgb(66, 131, 218);
+    outline: none;
+}
+
+.input-container input:valid {
+    border-color: rgb(135, 167, 208);
+}
+
+.input-container input:focus {
+    border-color: rgb(66, 131, 218);
+    outline: none;
+}
+
+.terms-conditions checkbox {
+    accent-color: rgb(135, 167, 208);
+}
+
+.terms-conditions {
+    font-size: 0.8rem;
+    color: black;
+    margin-bottom: 1em;
+}
+
+.terms-conditions label a {
+    text-decoration: none;
+    color: rgb(66, 131, 218);
+}
+
+.terms-conditions label a:hover {
+    text-decoration: underline;
+}
+
+.terms-conditions label a:focus {
+    text-decoration: underline;
+    color: rgb(2, 73, 165)
+}
+
+.terms-conditions label a:visited {
+    color: rgb(2, 73, 165)
+}
+
+.login-with {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    
+}
+
+.login-with a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding: 0.65em;
+    text-align: center;
+    
+}
+
+.login-with a.google {
+    border: 1px solid rgb(243, 214, 177);
+    border-radius: 5px;
+    background-color: rgb(243, 214, 177);
+    color: rgb(253, 126, 20);
+    margin-right: auto;
+}
+
+.login-with a.facebook {
+    border: 1px solid rgb(138, 192, 240);
+    border-radius: 5px;
+    background-color: rgb(138, 192, 240);
+    color: rgb(34, 139, 230);
+}
+
+.login-with img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+

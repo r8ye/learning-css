@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="lwh.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login-container">
+        <div class="left-col">
+            <img src="girl-with-laptop-3d.jpg" alt="girl with laptop">
+        </div>
+
+        <div class="right-col">
+            <h1 class="login-here">Login Here</h1>
+            <form action="#" method="get">
+                <div class="input-container">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="full-name" id="full-name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@email.com" required>
+                </div>
+
+                <div class="input-container">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                </div>
+
+                <div class="terms-conditions">
+                    <input type="checkbox" name="privacy-policy" id="privacy-policy" required>
+                    <label for="privacy-policy" class="privacy-policy">
+                        I agree with the <a href="#">Terms of Services</a> and <a href="#">Privacy Policy</a>
+                    </label>
+                </div>
+
+                <button type="submit">Log In</button>
+            </form>
+
+            <div class="login-with">
+                <a href="https://www.google.com/" class="google"><img src="google-icon.svg" alt="Google">Login with Google</a>
+                <a href="https://www.facebook.com/" class="facebook"><img src="fb-icon.svg" alt="Facebook">Login with Facebook</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
