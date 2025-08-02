@@ -1,0 +1,133 @@
+body {
+    background-color: pink;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    padding-top: 200px;
+}
+
+.hbd-card {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 1.8em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px grey;
+    max-width: 500px;
+    transition: transform 0.3s, background-color 0.3s ease;
+}
+
+.hbd-card:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    padding-bottom: 0.1em;
+    color: rgb(230, 59, 88);
+}
+
+p {
+    margin: 0;
+    font-size: 1em;
+    color: grey;
+    padding-bottom: 1em;
+}
+
+.title-con {
+    text-align: center;
+}
+
+.email-con {
+    display: flex;
+    justify-content: center;
+}
+
+.email-con input {
+    font-size: 0.9rem;
+    padding: 0.6em;
+    width: 100%;
+    border: 1px solid rgb(230, 59, 88);
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.email-con input::placeholder {
+    color: rgba(128, 128, 128, 0.555);
+}
+
+.email-con input::before {
+    border-color: rgb(230, 59, 88);
+}
+
+.email-con input:valid {
+    border-color: green;
+}
+
+.email-con input:hover {
+    border-color: pink;
+}
+
+.email-con input:focus {
+    border-color: rgb(230, 59, 88);
+    outline: none;
+}
+
+.card-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-links a {
+    text-decoration: none;
+    padding: 0.5em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    color: white;
+    margin: 0.5em;
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+button {
+    border: 1px solid rgb(230, 59, 88);
+    background-color: rgb(230, 59, 88);
+    padding: 0.5em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    color: white;
+    margin: 0.5em;
+}
+
+.card-links a.cancel {
+    border: 1px solid maroon;
+    background-color: maroon;
+}
+
+section {
+    display: none;
+    border: 1px solid white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    color: rgb(230, 59, 88);
+    border-radius: 10px;
+    padding: 1em;
+    max-width: 500px;
+    box-shadow: 0 8px 4px grey;
+}
+
+section:target {
+    display: block;
+}
+
