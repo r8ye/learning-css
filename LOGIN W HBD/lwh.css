@@ -2,28 +2,30 @@ body {
     font-family: 'Roboto';
     margin: 0 auto;
     background-color: white;
-    padding-top: 100px;
-
+    padding-top: 200px;
 }
 
 .login-container {
     display: flex;
-    border: 1px solid black;
+    border: 1px solid white;
+    border-radius: 20px;
     width: 80%;
-    height: 500px;
+    height: 400px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     padding: 1.5em;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0.1, 0.1); 
 }
 
 .left-col {
-    width: 50%;
+    width: 50%;   
 }
 
 .left-col img {
     width: 90%;
-    height: auto;
+    height: 100%;
+    border-radius: 20px;
 }
 
 .right-col {
@@ -52,7 +54,7 @@ h1.login-here {
     font-size: 0.8rem;
     border: 2px solid rgb(135, 167, 208);
     border-radius: 5px;
-    width: 80%;
+    width: 90%;
 }
 
 button {
@@ -63,7 +65,7 @@ button {
     font-size: 0.8rem;
     padding: 0.8em;
     border-radius: 5px;
-    width: 86%;
+    width: 96%;
     margin-bottom: 1em;
     cursor: pointer;
 }
@@ -110,43 +112,7 @@ button {
     color: rgb(2, 73, 165)
 }
 
-.login-with {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5em;
-    
-}
 
-.login-with a {
-    font-size: 0.8rem;
-    text-decoration: none;
-    padding: 0.65em;
-    text-align: center;
-    
-}
-
-.login-with a.google {
-    border: 1px solid rgb(243, 214, 177);
-    border-radius: 5px;
-    background-color: rgb(243, 214, 177);
-    color: rgb(253, 126, 20);
-    margin-right: auto;
-}
-
-.login-with a.facebook {
-    border: 1px solid rgb(138, 192, 240);
-    border-radius: 5px;
-    background-color: rgb(138, 192, 240);
-    color: rgb(34, 139, 230);
-}
-
-.login-with img {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    vertical-align: middle;
-}
 
 
 
