@@ -1,0 +1,42 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0 auto;
+  padding: 400px;
+}
+
+.color-grid {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.color-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  transition: transform 1.3s, background-color 1.5s ease;
+}
+
+.color-box:hover {
+  transform: scale(1.5);
+}
+
+.color1 {
+  background-color: #4CE4BE;
+}
+
+.color2 {
+  background-color: rgb(255, 258, 143);
+}
+
+.color3 {
+  background-color: brown;
+}
+
+.color4 {
+  background-color: hsl(178, 234%, 16%)
+}
+
+.color5 {
+  background-color: pink;
+}
