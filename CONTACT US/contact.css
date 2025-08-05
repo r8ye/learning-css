@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: white;
+    padding-top: 200px;
+    font-size: 1rem;
+    font-family: 'Mozilla Text';
+}
+
+.form-container {
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.74);
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.8em;
+    margin-top: 1.3em;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.8em;
+    color: black;
+    text-align: center;
+}
+
+input, textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 0.5em;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.5em;
+    width: 30%;
+    background-color: greenyellow;
+    border-radius: 5px;
+    border: 1px solid greenyellow;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: rgb(100, 211, 100);
+    transform: scale(1.1);
+    transition: transform 0.5s, background-color 0.5s ease;
+}
+
+.btn {
+    margin-bottom: 1.8em;
+    
+}
+
+
+
+
+
